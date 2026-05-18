@@ -29,3 +29,6 @@ Thumbs.db
 data/customer/
 *.wav
 *.mp4
+
+# Allow the safe template (re-includes after the .env.* rule above)
+!.env.example
