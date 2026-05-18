@@ -1,0 +1,31 @@
+# Secrets
+.env
+.env.*
+*.pem
+*.key
+azure.json
+local.settings.json
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Build/output
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Lab outputs you don't want shared
+data/customer/
+*.wav
+*.mp4
